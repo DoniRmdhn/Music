@@ -23,8 +23,7 @@ def ayiin(func):
                     chat_info.invite_link
                 try:
                     await message.reply(
-                        f"Hallo {ppk}", 
-                        f"Anda harus join dulu agar bisa menggunakan musik",
+                        f"Hallo {ppk},\nAnda harus join grup dulu agar bisa menggunakan musik",
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[InlineKeyboardButton("Join Grup", url=link)]]
