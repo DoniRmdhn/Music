@@ -224,10 +224,10 @@ stream_3 : "📡 **Started Streaming** 💡\n\n**🏷Title:** {0}\n⌛️**Durat
 stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️**Duration**: {2}\n👤**Requested By:** {3}"
 
 # Inline Buttons
-
+ᴍᴇɴᴜ ᴄʟᴏsᴇ
 #General Buttons
 CLOSE_BUTTON  : "🗑 Close"
-CLOSEMENU_BUTTON  : "🗑 Close Menu"
+CLOSEMENU_BUTTON  : "🗑 ᴄʟᴏsᴇ"
 BACK_BUTTON : "⬅ Back"
 UNBAN_BUTTON : "🗑 Unban Assistant"
 
@@ -266,7 +266,7 @@ P_B_4 : "🎵 Play Playlist"
 #Playlist
 PL_B_1 : "🚀 Play Playlist"
 PL_B_2 : "✚ Playlists"
-PL_B_3 : "• Menu"
+PL_B_3 : "• ᴍᴇɴᴜ"
 PL_B_4 : "📡 Play Mode"
 PL_B_5 : "🔄 Del Whole Playlist"
 PL_B_6 : "↗️ Delete Playlist"
