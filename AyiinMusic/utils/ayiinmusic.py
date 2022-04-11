@@ -23,10 +23,11 @@ def ayiin(func):
                     chat_info.invite_link
                 try:
                     await message.reply(
-                        f"**Hay kak {ppk}, Silahkan join dulu biar bisa pake bot ini kak**",
+                        f"Hallo {ppk}", 
+                        f"Anda harus join dulu agar bisa menggunakan musik",
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
-                            [[InlineKeyboardButton("⍟ ᴊᴏɪɴ ᴛᴏᴅ ⍟", url=link)]]
+                            [[InlineKeyboardButton("Join Grup", url=link)]]
                         ),
                     )
                     await message.stop_propagation()
