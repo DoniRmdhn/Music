@@ -224,7 +224,7 @@ stream_3 : "📡 **Started Streaming** 💡\n\n**🏷Title:** {0}\n⌛️**Durat
 stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️**Duration**: {2}\n👤**Requested By:** {3}"
 
 # Inline Buttons
-ᴍᴇɴᴜ ᴄʟᴏsᴇ
+
 #General Buttons
 CLOSE_BUTTON  : "🗑 Close"
 CLOSEMENU_BUTTON  : "🗑 ᴄʟᴏsᴇ"
