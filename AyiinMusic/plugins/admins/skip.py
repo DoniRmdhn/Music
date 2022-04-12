@@ -128,7 +128,7 @@ async def skip(cli, message: Message, _, chat_id):
         await message.reply_photo(
             photo=img,
             caption=_["stream_1"].format(
-                f"[{title[:25]}](https://t.me/{app.username}?start=info_{vidid})", duration_min, user_name",
+                f"[{title[:25]}](https://t.me/{app.username}?start=info_{vidid}), duration_min, user_name",
             ),
             reply_markup=InlineKeyboardMarkup(button),
         )
@@ -154,7 +154,7 @@ async def skip(cli, message: Message, _, chat_id):
         await message.reply_photo(
             photo=img,
             caption=_["stream_1"].format(
-                f"[{title[:25]}](https://t.me/{app.username}?start=info_{vidid})", duration_min, user_name",
+                f"[{title[:25]}](https://t.me/{app.username}?start=info_{vidid}), duration_min, user_name",
             ),
             reply_markup=InlineKeyboardMarkup(button),
         )
@@ -203,7 +203,7 @@ async def skip(cli, message: Message, _, chat_id):
             await message.reply_photo(
                 photo=img,
                 caption=_["stream_1"].format(
-                    f"[{title[:25]}](https://t.me/{app.username}?start=info_{vidid})", duration_min, user_name",
+                    f"[{title[:25]}](https://t.me/{app.username}?start=info_{vidid}), duration_min, user_name",
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
             )
