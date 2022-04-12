@@ -188,9 +188,9 @@ track_2 : "**Error**\n\nTidak ada **{0} Top 10 Playlist** di server bot. Silakan
 # PERALATAN
 
 #Lirik
-lirik_1 : "**Penggunaan:**\n\n/lirik [ Nama Musik]"
+lirik_1 : "**Penggunaan:**\n\n/lirik [ Judul Lagu]"
 lirik_2 : "Mencari Lirik"
-lirik_3 : "❌ Gagal mengambil lirik😭.\n\n💡**Mencoba Mencari:** {0}"
+lirik_3 : "❌ Gagal mengambil lirik.\n\n💡**Mencoba Mencari:** {0}"
 lirik_5 :
 lirik_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
 
@@ -215,13 +215,13 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan pengunggahan mungkin lambat. Harap 
 queue_1 : "Mohon Tunggu..Mengambil Antrian.."
 queue_2 : "Tidak ada trek di dalam Antrian."
 queue_3 : "<u>**Trek Antrian:</u>** [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n💡Judul:** {1}\n**⏱Durasi:** {2}\n👤**Ditambahkan Oleh:** {3}"
+queue_4 : "⏳ Ditambahkan ke Antrian di **»{0}\n\n💡 Judul:** {1}\n**⏱ Durasi:** {2}\n🎧** Ditambahkan Oleh:** {3}"
 
 # Semua Saluran Streaming
 stream_1 : "🏷 Judul:** {0}\n⏱** Durasi**: {1}\n🎧** Diminta oleh:** {2}"
-stream_2 : "📡 **Memulai Streaming melalui URL ** \n\n👤**Diminta Oleh:** {0}"
-stream_3 : "📡 **Memulai Streaming** 💡\n\n**🏷Judul:** {0}\n⌛️**Durasi**: {1}\n👤**Diminta Oleh:** {2} "
-stream_4 : "📡 **Memulai Streaming** \n\n**🏷Judul:** [{0}]({1})\n⌛️**Durasi**: {2}\n👤**Diminta Oleh:** {3}"
+stream_2 : "» **Memulai Streaming melalui URL ** \n\n👤** Diminta Oleh:** {0}"
+stream_3 : "» **Memulai Streaming** \n\n**🏷 Judul:** {0}\n⌛️** Durasi**: {1}\n🎧**Diminta Oleh:** {2} "
+stream_4 : "» **Memulai Streaming** \n\n**🏷 Judul:** [{0}]({1})\n⌛️** Durasi**: {2}\n🎧**Diminta Oleh:** {3}"
 
 # Tombol Sebaris
 
