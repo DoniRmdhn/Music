@@ -190,7 +190,7 @@ tracks_2 : "**Error**\n\nThere's no **{0} Top 10 Playlist** on bot's servers. Pl
 #Lyrics
 lyrics_1 : "**Usage:**\n\n/lyrics [ Music Name]"
 lyrics_2 : "Searching Lyrics"
-lyrics_3 : "❌ Failed to fetch lyrics😭.\n\n💡**Tried Searching For:** {0}"
+lyrics_3 : "❌ Failed to fetch lyrics.\n\n💡**Tried Searching For:** {0}"
 lyrics_5 : 
 lyrics_4 : "Click on the button below and get searched lyrics to avoid long spam types lyrics search."
 
@@ -215,7 +215,7 @@ song_11 : "Uploading Started\n\nUploading speed could be slow. Please hold on.."
 queue_1 : "Please Wait..Fetching Queue.."
 queue_2 : "No tracks inside Queue."
 queue_3 : "<u>**Queued Tracks:</u>**  [Checkout More Queued Tracks From Here]({0})"
-queue_4 : "⏳ Added to Queue at **#{0}\n\n💡Title:** {1}\n**⏱Duration:** {2}\n👤**Added By:** {3}"
+queue_4 : "⏳ Added to Queue at **»{0}\n\n💡Title:** {1}\n**⏱Duration:** {2}\n🎧**Requested By:** {3}"
 
 # All Streaming Lines
 stream_1 : "🏷 Title:** {0}\n⏱** Duration**: {1}\n🎧** Requested By:** {2}"
