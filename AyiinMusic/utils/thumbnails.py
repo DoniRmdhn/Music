@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by AyiinXd@Github, < https://github.com/AyiinXd >.
+# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
 #
-# This file is part of < https://github.com/AyiinXd/AyiinMusicBot > project,
+# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/AyiinXd/AyiinMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -90,7 +90,7 @@ async def gen_thumb(videoid):
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
-            (5, 5), f"{MUSIC_BOT_NAME}", fill="white", font=name_font
+            (20, 10), f"{MUSIC_BOT_NAME}", fill="white", font=name_font
         )
         draw.text(
             (600, 150),
