@@ -33,6 +33,7 @@ channelconnect = {}
 langm = {}
 pause = {}
 mute = {}
+maintenance = []
 audio = {}
 video = {}
 active = []
