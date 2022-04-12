@@ -33,7 +33,6 @@ channelconnect = {}
 langm = {}
 pause = {}
 mute = {}
-maintenance = []
 audio = {}
 video = {}
 active = []
@@ -170,27 +169,6 @@ async def mute_on(chat_id: int):
 
 async def mute_off(chat_id: int):
     mute[chat_id] = False
-
-
-# Maintenance
-
-
-async def is_maintenance():
-    if not maintenance:
-        get = await onoffdb.find_one({"on_off": 1})
-        if not get:
-            maintenance.clear()
-            maintenance.append(2)
-            return True
-        else:
-            maintenance.clear()
-            maintenance.append(1)
-            return False
-    else:
-        if 1 in maintenance:
-            return False
-        else:
-            return True
 
 
 # Pause-Skip
