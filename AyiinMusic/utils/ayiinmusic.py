@@ -23,7 +23,7 @@ def ayiin(func):
                     chat_info.invite_link
                 try:
                     await message.reply(
-                        f"Hallo {ppk},\n\nSupaya Bisa Menggunakan Bot Kamu Harus Masuk Ke Grup Support bot Terlebih Dahulu!.\nSilahkan Klik Tombol Di Bawah Untuk Join Ke Grup support.",
+                        f"Hallo {ppk},\nSupaya Bisa Menggunakan Bot Kamu Harus Masuk Ke Grup Support bot Terlebih Dahulu!.\nSilahkan Klik Tombol Di Bawah Untuk Join Ke Grup support.",
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[InlineKeyboardButton("• Join Grup Support •", url=link)]]
